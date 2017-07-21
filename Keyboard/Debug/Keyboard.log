@@ -1,0 +1,11 @@
+﻿Build started 2017/4/26 18:07:43.
+     1>Project "C:\Users\Administrator\Desktop\Keyborad-4-19\Keyboard\Keyboard.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         D:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Keyborad-4-19\Debug\Keyboard.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Kinect20.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Keyborad-4-19\Debug\Keyboard.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Keyborad-4-19\Debug\Keyboard.lib" /MACHINE:X86 Debug\Keyboard.obj
+         Debug\stdafx.obj
+     1>opencv_world310d.lib(opencv_world310d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\Administrator\Desktop\Keyborad-4-19\Keyboard\Keyboard.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

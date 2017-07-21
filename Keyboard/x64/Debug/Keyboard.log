@@ -1,0 +1,24 @@
+﻿Build started 2017/7/17 16:31:36.
+     1>Project "C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\Keyboard\Keyboard.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\Keyboard.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Keyboard.cpp
+         Keyboard.cpp
+     1>D:\Opencv3\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Opencv3\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>D:\Opencv3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>Keyboard.cpp(67): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>Keyboard.cpp(72): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>Keyboard.cpp(94): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Keyboard.cpp(714): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Keyboard.cpp(715): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Keyboard.cpp(716): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Keyboard.cpp(717): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\x64\Debug\Keyboard.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Kinect20.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\x64\Debug\Keyboard.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\x64\Debug\Keyboard.lib" /MACHINE:X64 x64\Debug\Keyboard.obj
+         x64\Debug\stdafx.obj
+         Keyboard.vcxproj -> C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\x64\Debug\Keyboard.exe
+     1>Done Building Project "C:\Users\Administrator\Desktop\Keyborad-5-23两指操控\Keyboard\Keyboard.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.56
